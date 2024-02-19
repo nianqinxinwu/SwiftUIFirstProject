@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822F6EB42B8300F3001D782D /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F6EB32B8300F3001D782D /* HeaderData.swift */; };
+		822F6EB62B83013E001D782D /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822F6EB52B83013E001D782D /* HeaderModel.swift */; };
 		82320AEA2B826333008E27E9 /* thisIsBeijingProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82320AE92B826333008E27E9 /* thisIsBeijingProjectApp.swift */; };
 		82320AEC2B826333008E27E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82320AEB2B826333008E27E9 /* ContentView.swift */; };
 		82320AEE2B826335008E27E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82320AED2B826335008E27E9 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		822F6EB32B8300F3001D782D /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		822F6EB52B83013E001D782D /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		82320AE62B826333008E27E9 /* thisIsBeijingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thisIsBeijingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82320AE92B826333008E27E9 /* thisIsBeijingProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thisIsBeijingProjectApp.swift; sourceTree = "<group>"; };
 		82320AEB2B826333008E27E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		822F6EAF2B830094001D782D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				82320AE92B826333008E27E9 /* thisIsBeijingProjectApp.swift */,
+				82320AEB2B826333008E27E9 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		822F6EB02B8300C6001D782D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				822F6EB32B8300F3001D782D /* HeaderData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		822F6EB12B8300D1001D782D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				822F6EB52B83013E001D782D /* HeaderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		822F6EB22B8300D8001D782D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		82320ADD2B826333008E27E9 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +87,10 @@
 		82320AE82B826333008E27E9 /* thisIsBeijingProject */ = {
 			isa = PBXGroup;
 			children = (
-				82320AE92B826333008E27E9 /* thisIsBeijingProjectApp.swift */,
-				82320AEB2B826333008E27E9 /* ContentView.swift */,
+				822F6EB22B8300D8001D782D /* View */,
+				822F6EB12B8300D1001D782D /* Model */,
+				822F6EB02B8300C6001D782D /* Data */,
+				822F6EAF2B830094001D782D /* App */,
 				82320AED2B826335008E27E9 /* Assets.xcassets */,
 				82320AEF2B826335008E27E9 /* Preview Content */,
 			);
@@ -138,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82320AEC2B826333008E27E9 /* ContentView.swift in Sources */,
+				822F6EB42B8300F3001D782D /* HeaderData.swift in Sources */,
+				822F6EB62B83013E001D782D /* HeaderModel.swift in Sources */,
 				82320AEA2B826333008E27E9 /* thisIsBeijingProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
